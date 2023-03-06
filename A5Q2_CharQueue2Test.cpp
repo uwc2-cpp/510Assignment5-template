@@ -1,6 +1,6 @@
 #include "TestHarness.h"
 
-#include "CharQueue2.h"
+#include "A5Q2_CharQueue2.h"
 
 TEST(enqueueDequeue, CharQueue2)
 {

@@ -38,6 +38,12 @@
     <ClInclude Include="include\CppUnitLite\WFailure.h">
       <Filter>CppUnitLite\CppUnitLite header files</Filter>
     </ClInclude>
+    <ClInclude Include="A5Q1_CharQueue1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="A5Q2_CharQueue2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CppUnitLite\WFailure.cpp">
@@ -58,8 +64,20 @@
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="XxxTest.cpp">
+    <ClCompile Include="A5Q1_CharQueue1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="A5Q1_CharQueue1Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A5Q2_CharQueue2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="A5Q2_CharQueue2Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
 </Project>
