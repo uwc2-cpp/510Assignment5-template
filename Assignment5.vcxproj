@@ -107,6 +107,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -114,6 +115,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TreatWarningAsError>true</TreatWarningAsError>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -141,9 +143,6 @@
     <ClCompile Include="CppUnitLite\TestResult.cpp" />
     <ClCompile Include="CppUnitLite\WFailure.cpp" />
     <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
